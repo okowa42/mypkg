@@ -16,5 +16,5 @@ def cb(request, response):
 
 
 def main():
-    srv = node.create_service(Query, "Query", cb)
+    srv = node.create_service(Query, "query", cb)
     rclpy.spin(node)
